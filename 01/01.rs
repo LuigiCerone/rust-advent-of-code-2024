@@ -1,6 +1,6 @@
+use std::collections::HashMap;
 use std::fs::File;
 use std::io::{self, BufRead};
-use std::collections::HashMap;
 
 fn read_file(file_path: &str) -> io::Result<(Vec<i32>, Vec<i32>)> {
     let file = File::open(file_path)?;
@@ -53,7 +53,6 @@ fn run_2(list_a: Vec<i32>, list_b: Vec<i32>) -> i32 {
 
     result
 }
-
 
 fn main() -> io::Result<()> {
     let file_path = "input.txt";

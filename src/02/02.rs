@@ -69,7 +69,7 @@ fn run_2(matrix: &[Vec<i32>]) -> i32 {
 }
 
 fn main() -> io::Result<()> {
-    let file_path = "input.txt";
+    let file_path = "src/02/input.txt";
 
     let matrix = read_file(file_path)?;
 

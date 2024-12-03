@@ -55,7 +55,7 @@ fn run_2(list_a: Vec<i32>, list_b: Vec<i32>) -> i32 {
 }
 
 fn main() -> io::Result<()> {
-    let file_path = "input.txt";
+    let file_path = "src/01/input.txt";
 
     let (mut column1, mut column2) = read_file(file_path)?;
 
